@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+    <link rel="icon" href="./src/imagens/icons8-pokedex-80.png">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="./src/imagens/pokeball.png" alt="pokebola" class="logo">
+        </a>
+        <button id="botao-alterar-tema">
+            <img src="./src/imagens/sun.png" alt="imagem do sol" class="imagem-botao">
+        </button>
+    </header>
+    <main>
+        <ul class="listagem-pokemon">
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Bulbasaur</span>
+                    <span>#001</span>
+                </div>
+
+                <img src="./src/imagens/bulbasaur.gif" alt="Bulbasaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Há uma semente de planta em suas costas desde o dia em que este Pókemon nasce. A
+                    semente cresce lentamente.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ivysaur</span>
+                    <span>#002</span>
+                </div>
+
+                <img src="./src/imagens/ivysaur.gif" alt="Ivysaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar de pé em
+                    suas patas traseiras.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venusaur</span>
+                    <span>#003</span>
+                </div>
+
+                <img src="./src/imagens/venusaur.gif" alt="Venusaur" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Venusaur absorve a luz solar para ganhar energia e para alimentar a sua flor,
+                    localizada em sua parte traseira. Depois de ganhar uma certa quantidade de luz solar, a flor vai
+                    lançar um aroma doce.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmander</span>
+                    <span>#004</span>
+                </div>
+
+                <img src="./src/imagens/charmander.gif" alt="Charmander" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Tem preferência por coisas quentes. Quando chove diz-se que o vapor sai da ponta de
+                    sua calda, a chama da cauda de um charmander pode indicar o quão saudavel e forte ele está,
+                    queimando mais fraca quando fraco e mais forte quanto mais saúdavel e forte.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Chameleon</span>
+                    <span>#005</span>
+                </div>
+
+                <img src="./src/imagens/charmeleon.gif" alt="Chameleon" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+
+                <p class="descricao">Charmeleons são barbaros por natureza e em batalhas pode chicotear seus inimigos
+                    com sua vigorosa cauda e cortalos com suas garras afiadas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charizard</span>
+                    <span>#006</span>
+                </div>
+
+                <img src="./src/imagens/charizard.gif" alt="Charizard" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">Ele pode cuspir um fogo tão intenso que pode derreter pedregulhos e pela
+                    intensidade de suas chamas causar um incêndio florestal.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Squirtle</span>
+                    <span>#007</span>
+                </div>
+
+                <img src="./src/imagens/squirtle.gif" alt="Squirtle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">Quando retrai seu longo pescoço em sua concha, esguicha água com força vigorosa.
+                </p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Wartortle</span>
+                    <span>#008</span>
+                </div>
+
+                <img src="./src/imagens/wartortle.gif" alt="Wartortle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">É reconhecido como um símbolo de longevidade.Se sua casca tiver algas, aquele
+                    Wartortle é muito antigo.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Blastoise</span>
+                    <span>#009</span>
+                </div>
+
+                <img src="./src/imagens/blastoise.gif" alt="Blastoise" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+
+                <p class="descricao">Blastoise possue um corpo pesado e robusto para suportar as grande explosões de
+                    seus canhões que são disparados em grande velocidade</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Caterpie</span>
+                    <span>#010</span>
+                </div>
+
+                <img src="./src/imagens/caterpie.gif" alt="Caterpie" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul>
+
+                <p class="descricao">Para se proteger solta um fedor terrivel para afugentar inimigos próximos.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Metapod</span>
+                    <span>#011</span>
+                </div>
+
+                <img src="./src/imagens/Metapod.gif" alt="Metapod" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul>
+
+                <p class="descricao">Esperando o momento para evoluir ele se mantem imóvel e se endurece ainda mais caso
+                    necessário.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Butterfree</span>
+                    <span>#012</span>
+                </div>
+
+                <img src="./src/imagens/Butterfree.gif" alt="Butterfree" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">Em batalhas essa bela borboleta pode balançar suas asas em alta velocidade para
+                    lançar esporos venenosos ou paralisantes em seus inimigos.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Weedle</span>
+                    <span>#013</span>
+                </div>
+
+                <img src="./src/imagens/Weedle.gif" alt="Weedle" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Cuidado com o espinho afiado em sua cabeça. se escondendo em gramas e arbustos onde
+                    comem folhas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Kakuna</span>
+                    <span>#014</span>
+                </div>
+
+                <img src="./src/imagens/Kakuna.gif" alt="Kakuna" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Kakuna se mantem grudado em uma arvore ou pendurado por uma linha até que evolua se
+                    mantendo imóvel.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Beedrill</span>
+                    <span>#015</span>
+                </div>
+
+                <img src="./src/imagens/Beedrill.gif" alt="Beedrill" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Beedrills são extremamente agressivos, voando em velocidade extrema atacando com
+                    seus grandes ferrões venenosos suas patas dianteiras e abdomen.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Pidgey</span>
+                    <span>#016</span>
+                </div>
+
+                <img src="./src/imagens/Pidgey.gif" alt="Pidgey" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">Muito dócil. Se atacado, muitas vezes chuta areia para se proteger, em vez de revidar.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Pidgeotto</span>
+                    <span>#017</span>
+                </div>
+
+                <img src="./src/imagens/Pidgeotto.gif" alt="Pidgeotto" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">Pidgeotto é muito poderoso, sendo capaz de carregar suas presas por milhas até seu ninho.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Pidgeot</span>
+                    <span>#018</span>
+                </div>
+
+                <img src="./src/imagens/Pidgeot.gif" alt="Pidgeot" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                    <li class="tipo voador">Voador</li>
+                </ul>
+
+                <p class="descricao">Pidgeots tem asas tão poderoso que são capazes de criar vendavais com apenas um bater de asas, podendo se espalhar esses vendavais para intimidar seus inimigos.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Rattata</span>
+                    <span>#019</span>
+                </div>
+
+                <img src="./src/imagens/Rattata.gif" alt="Rattata" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                </ul>
+
+                <p class="descricao">Rattatas pode viver em quaisquer locais onde encontrem comida, procurando alimento por dias, vivendo em esgotos de cidades grandes e florestas perto de vilas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Raticate</span>
+                    <span>#020</span>
+                </div>
+
+                <img src="./src/imagens/Raticate.gif" alt="Raticate" class="gif">
+
+                <ul class="tipos">
+                    <li class="tipo normal">Normal</li>
+                </ul>
+
+                <p class="descricao">Caso ameaçado, ele se levanta mostrando suas patas e gritando para intimidar os inimigos e amendrontalos</p>
+            </li>
+        </ul>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
